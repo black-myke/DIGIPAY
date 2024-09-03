@@ -146,15 +146,29 @@ button {
 .partnerProps img {
   margin-right: 10px;
 }
+.partnerProps span {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.25px;
+  text-align: left;
+  color: #353344;
+}
 
 .partners {
-  background-color: #DADADA;
+  background-color: #F9F9F9;
   padding: 10px 100px;
   margin: 30px 0;
 }
 
 .partnersText {
   margin-top: 20px;
+}
+.partnersText p {
+font-size: 16px;
+font-weight: 500;
+line-height: 20.83px;
+text-align: left;
+color: #909094;
 }
 
 .partnersLayout {
@@ -166,16 +180,34 @@ button {
   align-items: start;
 }
 
-
 /* PARTNERS STYLING ENDS HERE */
+
 
 /* SERVICES STYLING BEGINS HERE */
 .serviceCard {
-  width: 30%;
+  width: 360px;
+  height: 214px;
   border: 0.8px solid #DADADA;
   border-radius: 10px;
-  padding: 20px 5px;
+  padding: 20px 10px;
   margin-bottom: 20px;
+}
+
+.serviceCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26.04px;
+  text-align: left;
+  color: #353344;
+}
+
+.serviceCard p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #909094;
 }
 
 .services {
@@ -185,10 +217,20 @@ button {
 
 .servicesText h2 {
   margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52.08px;
+  text-align: left;
+  color: #353344;
 }
 .servicesText p {
   width: 40%;
   margin: 20px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+  text-align: left;
+  color: #8E8E93;
 }
 
 .servicesLayout {
@@ -201,30 +243,79 @@ button {
 /* HOW IT WORKS STYLING STARTS HERE */
 .howItWorks {
   padding: 30px 100px;
-  background-color: #DADADA;
+  background-color: #F9F9F9;
 }
 .howItWorksCard {
   display: flex;
 }
 .howItWorksCard span {
-  border: 1px solid #909094;
-  padding: auto;
-  height: 30px;
-  width: 30px;
-  text-align: center;
+  width: 35px;
+  height: 35px;
+  padding: 1px 8px ;
+  gap: 10px;
+  border: 0.8px solid #B4B4B4;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.25px;
+  text-align: left;
   border-radius: 100px;
   margin-right: 10px;
-  font-size: 20px;
 }
 
 .processBox {
-  width: 300px;
+  width: 311px;
+  height: 381px;
+  left: 51px;
+  padding: 18px ;
+  gap: 10px;
+  border-radius: 10px;
+  opacity: 0px;
   background-color: #FFFFFF;
-  padding: 10px;
+}
+.processBox h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.25px;
+  text-align: left;
+  color: #353344;
+}
+
+.processBox p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #909094;
+}
+
+.processBox a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #4F3BE2;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.howItWorksText h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52.08px;
+  text-align: left;
+  color: #353344;
 }
 
 .howItWorksText p {
   width: 40%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+  text-align: left;
+  color: #909094;
+  margin: 20px 0;
 }
 .howItWorksLayout {
   display: flex;
@@ -233,3 +324,61 @@ button {
 
 
 /* HOW IT WORKS STYLING ENDS HERE */
+
+
+/* FOOTER STYLING STARTS HERE */
+.footer {
+  background-color: #F9F9F9;
+  padding: 37px 100px;
+}
+
+.footerOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerOneText a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.83px;
+  text-align: left;
+  color: #4F3BE2;
+  margin-right: 20px;
+}
+.footerOneBtn button:nth-child(1) {
+  width: 135px;
+  height: 50px;
+}
+
+.footerOneBtn button:nth-child(2) {
+  width: 170px;
+  height: 50px;
+}
+
+.footerDivider {
+  border: 0.8px solid #DADADA;
+  margin: 50px 0;
+}
+
+.footerTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerTwoTerms a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #909094;
+  padding: 0 30px;
+}
+.footerTwoTerms a:nth-child(1) {
+  border-right: 0.8px solid #909094;
+}
+/* FOOTER STYLING ENDS HERE */

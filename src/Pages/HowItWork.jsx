@@ -7,7 +7,7 @@ import SetUpImg from '../images/verifyImg.png';
 const HowItWork = () => {
 
   const stepOneDescrp = "Start by filling out a simple registration form. Provide your business details, including your name, contact information and business type.";
-  const stepTwoDescrp = "After registration, we'll guide through a quick verification process to ensure your account and details are verified.";
+  const stepTwoDescrp = "After registration, we will guide you through a quick verification process to ensure your account and details are verified.";
   const stepThreeDescrp = "Choose your preferred payment method and set up your account to start accepting payment immediatley for your business.";
 
 

@@ -15,7 +15,7 @@ const Partners = () => {
           Trusted by <b>150,000+</b> businesses & <b>200,000+</b> individuals
         </p>
       </div>
-
+      
       <div className="partnersLayout">
         <PartnerProps
           partnerImg={Shopify}

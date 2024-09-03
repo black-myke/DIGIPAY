@@ -3,6 +3,9 @@ import OurServicesCard from '../Components/OurServicesCard';
 import Payment from '../images/payment.svg';
 import CustomerCare from '../images/customer-support.svg';
 import Scam from '../images/scam-shield.svg';
+import Dashboard from '../images/dashboard.png'
+import Mobile from '../images/mobile.svg'
+import Invoice from '../images/invoice.png'
 
 const Service = () => {
 
@@ -26,9 +29,9 @@ const Service = () => {
 
       <div className="servicesLayout">
         <OurServicesCard serviceImg={Payment} serviceHeading={"Seamless Payment Processing"} serviceText={seamlessPayment} />
-        <OurServicesCard serviceImg={Scam} serviceHeading={"Mobile Payment"} serviceText={mobilePayment} />
-        <OurServicesCard serviceImg={CustomerCare} serviceHeading={"Comprehensive Dashboard"} serviceText={dashboard} />
-        <OurServicesCard serviceImg={Payment} serviceHeading={"Customizable Invoices"} serviceText={invoice} />
+        <OurServicesCard serviceImg={Mobile} serviceHeading={"Mobile Payment"} serviceText={mobilePayment} />
+        <OurServicesCard serviceImg={Dashboard} serviceHeading={"Comprehensive Dashboard"} serviceText={dashboard} />
+        <OurServicesCard serviceImg={Invoice} serviceHeading={"Customizable Invoices"} serviceText={invoice} />
         <OurServicesCard serviceImg={Scam} serviceHeading={"Fraud Prevention"} serviceText={fraud} />
         <OurServicesCard serviceImg={CustomerCare} serviceHeading={"Customer Support"} serviceText={support} />
       </div>
