@@ -2,9 +2,10 @@ import React from 'react'
 import HeroSection from '../Components/HeroSection'
 import Partners from '../Components/Partners'
 import Service from './Service'
-import HowItWorksCard from '../Components/HowItWorksCard'
 import HowItWork from './HowItWork'
-import Footer from '../Components/Footer'
+import Faq from './Faq'
+import FairPricing from '../Components/FairPricing'
+import ContactUs from './ContactUs'
 
 const HomePage = () => {
   return (
@@ -13,7 +14,9 @@ const HomePage = () => {
       <Partners />
       <Service />
       <HowItWork />
-      <Footer />
+      <Faq />
+      <FairPricing />
+      <ContactUs />
     </div>
   )
 }
